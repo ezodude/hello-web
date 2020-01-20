@@ -1,0 +1,12 @@
+version: '3.0'
+
+services:
+
+  hello-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ezodude/hello-web
+    container_name: hello-web
+    ports:
+      - "8080:5085"
