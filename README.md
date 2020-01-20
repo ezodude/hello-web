@@ -20,7 +20,7 @@ Then, we add our compiled `Go` binary. Use the `Makefile` to compile this.
 
 `ENTRYPOINT ["/hello-web"]`
 
-Then configure the container to run as an executable (running the compiled `Go` binary).
+Then, configure the container to run as an executable (running the compiled `Go` binary).
 
 ## docker-compose
 
