@@ -28,8 +28,8 @@ clean:
 			rm hello-web; \
 	fi
 
-
 # Build hello_web docker image for dev, i.e local machine.
+
 .PHONY: build_image
 build_image:
 	docker-compose -f ./docker-compose.yml build --force-rm hello-web
