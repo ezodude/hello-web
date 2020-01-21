@@ -1,9 +1,10 @@
-SHELL=/bin/zsh
+SHELL=/bin/bash
 
-# Run on dev env, i.e local machine.
+# Clean, build image, and run container locally.
 .PHONY: up
 up: clean_build_image up_images clean
 
+# Stop container and clean locally.
 .PHONY: down
 down: down_images clean
 
