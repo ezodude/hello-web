@@ -77,5 +77,5 @@ func (a *App) Run(port string) {
 func main() {
 	a := App{}
 	a.Initialize()
-	a.Run("5085")
+	a.Run("8080")
 }

@@ -9,4 +9,4 @@ services:
     image: ezodude/hello-web
     container_name: hello-web
     ports:
-      - "8080:5085"
+      - "8080:8080"
